@@ -231,6 +231,7 @@ footer {
 }
 
 .product-logo {
+    filter: contrast(500%);
     width: 150px;
     height: auto;
     border-radius: 10px;
