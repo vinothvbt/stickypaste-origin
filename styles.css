@@ -27,7 +27,7 @@ body {
 /* Header */
 header {
     background: linear-gradient(135deg, #8731ff, #1ab6ff); /* Purple to Dark Purple */
-    padding: 80px 20px;
+    padding: 10px 20px;
     text-align: center;
     border-radius: 0 0 30px 30px;
     animation: fadeInDown 1s ease-in-out;
@@ -261,6 +261,7 @@ footer {
 .video-container {
     width: 100%;
     max-width: 900px;
+    height: fit-content;
     margin: 0 auto;
 }
 
