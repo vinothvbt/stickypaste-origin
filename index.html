@@ -81,6 +81,16 @@
     <footer>
         <p>© 2025 Sticky Paste & Printed-Copy. All rights reserved.</p>
     </footer>
+<script>
+        // Function to check if the device is mobile
+        function isMobileDevice() {
+            return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+        }
 
+        // Display an alert if the user is on a mobile device
+        if (isMobileDevice()) {
+            alert(" these softwares are not available for mobile phones please open this website in your laptop or desktop");
+        }
+    </script>
 </body>
 </html>
