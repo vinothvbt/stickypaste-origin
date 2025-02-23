@@ -1,0 +1,59 @@
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+    body {
+        font-size: 0.9rem;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .btn {
+        padding: 10px 25px;
+        font-size: 1rem;
+    }
+
+    .combo-offer, .combo-discount, .cta, .demo-video, .product-images {
+        padding: 40px 10px;
+        margin: 20px 10px;
+    }
+
+    .combo-offer h2, .combo-discount h2, .cta h2, .demo-video h2, .product-images h2 {
+        font-size: 2rem;
+    }
+
+    .combo-offer p, .combo-discount p, .cta p, .demo-video p, .product-images p {
+        font-size: 1rem;
+    }
+
+    .combo-grid, .images-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .combo-item, .image-item {
+        padding: 15px;
+    }
+
+    .logo-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .product-logo {
+        width: 100px;
+    }
+
+    .video-container {
+        max-width: 100%;
+    }
+
+    .video-container iframe {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16/9;
+    }
+}
