@@ -3,77 +3,255 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>How to Use - Sticky Paste</title>
+    <title>Sticky Paste User Guide</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <style>
-
         body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: linear-gradient(135deg, #8731ff, #1ab6ff); /* Purple to Dark Purple */
+            background: linear-gradient(135deg, #8731ff, #1ab6ff);
             overflow-x: hidden;
-            word-wrap: break-word;
-            overflow-wrap: break-word;
         }
         .container {
-            max-width: 95%;
-            padding: 20px;
+            padding: 40px;
             background: white;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-            text-align: left;
-            white-space: normal;
-            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            margin-top: 20px;
         }
-        h1{
-            color: #333;
-        }
-         h2 {
-            color: #333;
-        }
-        p {
-            color: #272727;
-            font-size: 18px;
-            line-height: 1.8;
-            word-break: break-word;
+        .section-header {
+            border-bottom: 2px solid #f1f1f1;
+            padding-bottom: 15px;
+            margin-bottom: 30px;
         }
         .highlight {
-            font-weight: bold;
+            text-decoration: underline;
             color: #007bff;
+            font-weight: 600;
         }
-        
+        .custom-alert {
+            background: #fff;
+            border: 1px solid #ffebee;
+            padding: 15px;
+            border-radius: 5px;
+            color: #bf360c;
+        }
+        code {
+            background-color: #f0f0f0;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-size: 0.875rem;
+        }
+        img{
+            width: auto;
+            height: auto;
+            margin: 10px;
+        }
     </style>
 </head>
 <body>
 
-    <div class="container">
-        <h1 id="welcome">Welcome to Sticky Paste</h1>
-        <p>Sticky Paste is an intuitive text automation tool that helps you paste text as if you are typing it manually. This is especially useful for filling forms, coding, and avoiding detection on systems that block copy-paste actions.</p>
-        
-        <h2 id="getting-started">Getting Started</h2>
-        <p>To begin, copy your desired text using <span class="highlight">Ctrl + C</span>. Then, press <span class="highlight">Ctrl + Shift + 1</span> to start the sticky pasting. Sticky Paste will simulate to paste the content letter by letter naturally.</p>
-        <p>If you need to stop the process, pressing any key will immediately halt Sticky Paste.</p>
-        
-        <h2 id="adjust-speed">Adjusting the Speed</h2>
-        <p>You can customize the typing speed to match your needs. Open the Sticky Paste UI and adjust the slider. A higher value slows down the typing speed, whereas a lower value speeds it up.</p>
-        <p>This feature is useful for mimicking human typing that avoids getting malpractice from any online codding platforms and or achieving perfectly aligned text when you paste for bulk text input.</p>
-        
-        <h2 id="toggle">Enable or Disable Sticky Paste</h2>
-        <p>Sticky Paste can be turned on or off via the UI. If you need to turn it off, simply click the <span class="highlight">Toggle Sticky Paste</span> button.</p>
-        <p>This flexibility ensures you can use the tool only when necessary without interfering with your normal workflow.</p>
-        
-        <h2 id="license">License Activation</h2>
-        <p>To unlock the Sticky Paste, for your day to day use click <span class="highlight">get licence key</span> button on the app and purchase a license key for a one-time fee of ₹20. After purchasing, enter your key in the UI under <span class="highlight">Activate License</span>.</p>
-        <p>If you reinstall Sticky Paste, your key will still work on your pc —no need to buy another one.</p>
-        
-        <h2 id="background">Runs in the Background</h2>
-        <p>Sticky Paste operates silently in the background, allowing you to use keyboard shortcuts without keeping the UI open. As long as the software is running, the shortcuts remain functional.</p>
-        <p>It’s optimized for minimal resource consumption, ensuring smooth operation alongside other applications.</p>
-        
-        <h2 id="help">Need Help?</h2>
-        <p>If you experience any issues, visit our <a href="#" class="button">Support Page</a> or contact us at <a href="mailto:support@stickypaste.com">support@stickypaste.com</a>.</p>
+<div class="container">
+    <div class="section-header">
+        <h1 class="display-5">Sticky Paste User Guide</h1>
+        <p class="lead">Automate text pasting as real typing</p>
     </div>
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card mb-5 shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h3 class="mb-0">Getting Started</h3>
+                </div>
+                <div class="card-body">
+                    <ol class="p-2 m-0">
+                        <li><strong>Copy your content:</strong> Use <span class="highlight">Ctrl + C</span> to copy text. or with use of my extension</li>
+                        <li><strong>Start sticky pasting:</strong> Press <span class="highlight">Ctrl + Shift + 1</span> to simulate typing letter by letter.</li>
+                        <li><strong>Stop the process:</strong> Press <span class="highlight">any key</span> to halt the process instantly.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="card mb-5 shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h3 class="mb-0">Adjust Typing Speed</h3>
+                </div>
+                <div class="card-body">
+                    <p>Customize the pasting speed using the slider in the Sticky Paste UI:</p>
+                    <ul class="p-2 m-0">
+                        <li>lower speed values make pasting <u>faster</u>.</li>
+                        <li>higher values slow it down for realistic human typing.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card mb-5 shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h3 class="mb-0">Enable & Disable</h3>
+                </div>
+                <div class="card-body">
+                    <p>Toggle Sticky Paste via the UI button:</p>
+                    <ul class="p-2 m-0">
+                        <li>Click <span class="badge bg-primary">Toggle Sticky Paste</span> to on/off.</li>
+                        <li>It automatically turns off when inactive.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card mb-5 shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h3 class="mb-0">License Activation</h3>
+                </div>
+                <div class="card-body">
+                    <p>Activate Sticky Paste with a one-time license:</p>
+                    <ol class="p-2 m-0">
+                        <li>Click <span class="highlight">Get License Key</span> in the app and purchase the key.</li>
+                        <li>Enter the key in the <span class="highlight">Activate License</span> section of the UI.</li>
+                        <li>Your key remains valid even if you reinstall.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="card mb-5 shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h3 class="mb-0">Troubleshooting</h3>
+                </div>
+                <div class="card-body">
+                    <p>If you encounter issues, try these steps:</p>
+                    <ol class="p-2 m-0">
+                        <li>Check for conflicts with other applications or software updates.</li>
+                        <li>Restart your computer and ensure Sticky Paste is running.</li>
+                        <li>Contact <a href="mailto:support@stickypaste.com" class="highlight">support@stickypaste.com</a> for assistance.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="card mb-5 shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h3 class="mb-0">Key Benefits</h3>
+                </div>
+                <div class="card-body">
+                    <ul class="p- m-0">
+                        <li>Avoid bot detection on websites with copy-paste restrictions.</li>
+                        <li>Save time in repetitive text entry tasks.</li>
+                        <li>Ensure consistent document formatting when pasting large content.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card shadow-sm mb-4">
+                <div class="card-header bg-primary text-white">
+                    <h3 class="mb-0">Quick Tips</h3>
+                </div>
+                <div class="card-body">
+                    <p>
+                         copy the text.<br>
+                        <code>Ctrl + Shift +1</code> to start pasting.<br>
+                        <code>Any key</code> to stop.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h3 class="mb-0">Need Help?</h3>
+                </div>
+                <div class="card-body">
+                    <p>
+                        Visit our <a href="#" class="highlight">Support Page</a><br>
+                        or email <a href="mailto:support@stickypaste.com" class="highlight">support@stickypaste.com</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    
+    <div class="container">
+        <h2 id="you-can-copy-extension">You Can Copy Browser Extension</h2>
+        <p>You Can Copy is a browser extension that enhances your copying functionality. Follow these instructions to install the extension manually:</p>
+        
+        <div class="card mb-4">
+          <div class="card-header">
+            <h3 class="mb-0">Manual Installation Guide</h3>
+          </div>
+          <div class="card-body">
+            <p><strong>Step 1:</strong> Download the extension ZIP file from our <a href="index.html" class="highlight">official download page</a>.</p>
+            
+            <div class="accordion" id="browserAccordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chrome-collapse">
+                    Chrome & Edge (Chromium-based Browsers)
+                  </button>
+                </h2>
+                <div id="chrome-collapse" class="accordion-collapse collapse show">
+                  <div class="accordion-body">
+                    <ol>
+                      <li>Extract the downloaded ZIP file to a folder on your computer</li>
+                      <li>Open Chrome/Edge and type <code>chrome://extensions/</code> in the address bar </li>
+                      <li>Enable "Developer mode" toggle in the top-right corner <img src="images/you can copy (7).png" alt=""></li>
+                      <li>Click "Load unpacked" and select the extracted extension folder <img src="images/you can copy (8).png" alt=""></li>
+                      <li>The extension should now appear in your browser toolbar <img src="images/you can copy (3).png" alt=""></li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#firefox-collapse">
+                    Firefox
+                  </button>
+                </h2>
+                <div id="firefox-collapse" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <ol>
+                      <li>Extract the downloaded ZIP file to a folder</li>
+                      <li>Type <code>about:debugging</code> in the address bar</li>
+                      <li>Click "This Firefox" tab</li>
+                      <li>Click "Load Temporary Add-on"</li>
+                      <li>Select the <code>manifest.json</code> file from the extracted folder</li>
+                      <li>The extension will be loaded and appear in your toolbar</li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+        
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#opera-collapse">
+                    Opera
+                  </button>
+                </h2>
+                <div id="opera-collapse" class="accordion-collapse collapse">
+                  <div class="accordion-body">
+                    <ol>
+                      <li>Extract the downloaded ZIP file</li>
+                      <li>Type <code>opera://extensions</code> in the address bar</li>
+                      <li>Enable "Developer mode"</li>
+                      <li>Click "Load unpacked extension" and select the folder</li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <div class="alert alert-warning mt-4">
+              <strong>Important:</strong> Keep the extracted extension folder intact and do not move it after installation. The extension will stop working if the files are moved or deleted.
+            </div>
+          </div>
+        </div>
+        
+        <h2 id="extension-features" class="mt-5">Extension Features</h2>
+        <p>Once installed, the You Can Copy extension offers:</p>
+        <ul class="list-group">
+        
+          <li class="list-group-item"><strong>Copy entire page content</strong> – Quickly capture full page text with a single click</li>
+          <li class="list-group-item"><strong>Effortless selected text copying</strong> – Seamlessly copy any portion of text without formatting issues</li>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>    
 </body>
 </html>
